@@ -1,0 +1,53 @@
+html {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+main {
+  background: rgba(187, 207, 187, 0.3);
+  text-align:
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+header {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  height: 120px;
+  background-color:#000000;
+  color:#ffffff;
+}
+
+.imageContainer {
+  position: relative;
+  min-width: 980px;
+}
+
+#about {
+  margin: 10px 30%;
+}
+
+li {
+  margin: 10px 40%;
+}
+
+footer {
+  font-size: 15px;
+  background-color: #000000;
+  color:#ffffff;
+  height: 50px;
+  padding: 10px;
+}
+background, color, height, margin, padding, text-align
