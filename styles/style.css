@@ -4,9 +4,10 @@ html {
 
 main {
   background: rgba(187, 207, 187, 0.3);
-  text-align:
+  text-align: center;
 }
 
+/* font-family and font-size for all paragraphs */
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
@@ -18,6 +19,7 @@ header {
   text-align: center;
 }
 
+/* bg-color set to white */
 body {
   background-color: #ffffff;
   margin: 0;
@@ -31,7 +33,6 @@ header {
 }
 
 .imageContainer {
-  position: relative;
   min-width: 980px;
 }
 
@@ -50,4 +51,23 @@ footer {
   height: 50px;
   padding: 10px;
 }
-background, color, height, margin, padding, text-align
+
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #9ebce2;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
